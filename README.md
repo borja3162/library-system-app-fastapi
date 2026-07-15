@@ -48,10 +48,14 @@ Endpoints are separated in domains, with their own routers. Also, depending on t
 
 - Download the project files
 - Install Docker and Docker Desktop, and set up a Redis service within Docker using the following command on the terminal, on the main project folder while Docker Desktop is running
+
 	docker compose up -d
+	
 - Change .env.example  filename to .env and change its values to include real variables(REDIS_PORT must match the one in docker-compose.yml ).
 - Download a modern caddy executable file from an official, trusted website, and use it from the terminal with the Caddyfile (terminal must be on the main project folder)
+
 	<executable_file> run –config Caddyfile
+	
   where executable_file is the name of the downloaded caddy executable
 
 
