@@ -39,7 +39,7 @@ The database can effectively be split into two diagrams. The first one, focuses 
 
 ## Endpoints overview:
 
-Endpoints are separated in domains, with their own routers. Also, depending on the data the endpoints access, they require the user to be authenticated (for employees) or not.
+Endpoints are organized in domains, each with their own router. Depending on the data the endpoints need to access, they will need the user to be authenticated or not.
  
 <p align="center">
   <img src="img/endpoints_arch.png" alt="Database", width="380" >
