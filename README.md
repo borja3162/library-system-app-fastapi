@@ -64,9 +64,13 @@ Endpoints are separated in domains, with their own routers. Also, depending on t
 - Create a python virtual env and install all relevant dependencies using requirements.txt .
 - Activate this environment and change the terminal location into the project folder, from which all subsequent commands will be executed.
 - Possibly, call the auxiliar scripts to populate the database with fake data:
+
 	python -m library_app.scripts.initialize_database
+	
 	python -m library_app.scripts.initialize_database2
+	
 - Start the app:
+
 	uvicorn library_app.main:app --reload
 
 
