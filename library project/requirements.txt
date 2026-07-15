@@ -4,7 +4,7 @@ bcrypt==4.0.1
 certifi==2026.6.17
 cffi==2.0.0
 click==8.2.1
-colorama @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/colorama_1729036581634/work
+colorama 
 cryptography==49.0.0
 ecdsa==0.19.2
 fastapi==0.116.1
@@ -14,17 +14,17 @@ httpcore==1.0.9
 httptools==0.6.4
 httpx==0.28.1
 idna==3.10
-iniconfig @ file:///C:/Users/task_176735683625021/croot/iniconfig_1767356939856/work
+iniconfig 
 packaging==26.0
 passlib==1.7.4
-pluggy @ file:///C:/Users/task_177697291181239/croot/pluggy_1776973044854/work
+pluggy 
 pyasn1==0.6.3
 pycparser==3.0
 pydantic==2.11.7
 pydantic-settings==2.14.2
 pydantic_core==2.33.2
-Pygments @ file:///C:/Users/task_177512670754876/croot/pygments_1775127039781/work
-pytest @ file:///C:/Users/task_177765425171783/croot/pytest_1777654778843/work
+Pygments 
+pytest 
 pytest-asyncio==1.4.0
 python-dotenv==1.1.1
 python-jose==3.5.0
