@@ -14,6 +14,10 @@ The project was built to learn about how to implement auth and cache in a FastAP
 
 ### High level diagram
 
+<p align="center">
+  <img src="img/high_level_arch.png" alt="Architecture", width="880" >
+</p>
+
 
 Since employees need to use credentials in the request, Caddy was added to provide HTTPS connection between client and server , so  these credentials are sent in an encrypted form.
 
@@ -25,8 +29,9 @@ Since employees need to use credentials in the request, Caddy was added to provi
 
 The database can effectively be split into two diagrams. The first one, focuses on employees, and the second one, on the tables relevant to general users of the library app.
 
-
-
+<p align="center">
+  <img src="img/database_arch.png" alt="Database", width="880" >
+</p>
 
 - Every employee has a a unique employee account, which is used for authentication and authorization
 - Books and authors have a table describing their many to many relationship
@@ -36,7 +41,9 @@ The database can effectively be split into two diagrams. The first one, focuses 
 
 Endpoints are separated in domains, with their own routers. Also, depending on the data the endpoints access, they require the user to be authenticated (for employees) or not.
  
-
+<p align="center">
+  <img src="img/endpoints_arch.png" alt="Database", width="380" >
+</p>
 
 - Basic queries on books and authors usually cache the answer if redis is available, and being completely up to date is not necessary.
 - Pagination was added only on some endpoints where their response was expected to be bigger. 
