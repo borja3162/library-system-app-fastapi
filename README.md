@@ -1,4 +1,4 @@
-# fastapi-library-app
+# library-system-app-fastapi
 
 ## Project description:
 
