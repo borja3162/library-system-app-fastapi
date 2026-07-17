@@ -46,8 +46,8 @@ Endpoints are organized in domains, each with their own router. Depending on the
 </p>
 
 - Basic queries on books and authors usually cache the answer if redis is available, and being completely up to date is not necessary.
-- Pagination was added only on some endpoints where their response was expected to be bigger. 
-- Not all CRUD operations were included, just the ones that I considered relevant to the project’s goals.
+- Pagination was added only on some endpoints where their response was expected to potentially include many elements. 
+- Not all basic CRUD operations were included, just the ones that I considered relevant to the project’s goals.
 - Authentication is needed to deal with databases that include personal information or perform actions that affect business operations.
 
 
